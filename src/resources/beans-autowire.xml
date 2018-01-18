@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="car" class="com.atguigu.spring.beansAutowire.Car" p:brand="Audi"
+    p:price="300000"></bean>
+
+    <bean id="address" class="com.atguigu.spring.beansAutowire.Address" p:city="Chengdu"
+    p:street="YuLin"></bean>
+
+    <!--手动装配-->
+    <!--
+    <bean id="person" class="com.atguigu.spring.beansAutowire.Person" p:name="Tom"
+    p:address-ref="address" p:car-ref="car"></bean>
+    -->
+
+    <!--自动装配-->
+    <!-- 可以使用autowrie 属性指定自动装配的方式
+    byName 根据bean的名字和当前bean的setter风格的属性名进行装配。若有，则自动装配，  没有，则不进行装配
+    byType 根据bean的名字和当前bean的属性类型进行装配（有一个以上类型一样的，则抛异常）
+    byName byType 不能同时使用，两者选其一
+    -->
+    <bean id="person" class="com.atguigu.spring.beansAutowire.Person" p:name="Tom"
+          autowire="byName"></bean>
+
+
+</beans>
