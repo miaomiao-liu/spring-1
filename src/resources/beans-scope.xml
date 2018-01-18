@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <!--
+    使用scope属性来配置bean的作用域：
+    singleton：默认，容器初始时创建bean，在容器整个生命周期内只创建一次bean实例，单例的
+    prototype：原型的,容器初始时不创建bean， 每次请求时都创建一个 新的bean实例
+    -->
+    <bean id="car" class="com.atguigu.spring.beansScope.Car"
+    scope="prototype">
+        <property name="brand" value="Audi"></property>
+        <property name="price" value="300000"></property>
+    </bean>
+
+</beans>
