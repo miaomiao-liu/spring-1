@@ -7,22 +7,22 @@
     抽象bean ： abstract属性为true，这样的bean不能被IOC容器实例化，只能用来被继承，
     如果一个bean的class属性没有被指定，该bean必须是一个抽象bean
     -->
-    <bean id="address" class="com.atguigu.spring.beansAutowire.Address"
+    <bean id="address" class="com.atguigu.spring1.beansAutowire.Address"
           p:city="ChengDu" p:street="ChunXiLu" abstract="true"></bean>
 
     <!--bean配置的继承：parent属性指定继承哪个bean配置 -->
-    <bean id="address2" class="com.atguigu.spring.beansAutowire.Address"
+    <bean id="address2" class="com.atguigu.spring1.beansAutowire.Address"
     p:street="TianFU" parent="address"></bean>
 
-    <bean id="address3" class="com.atguigu.spring.beansAutowire.Address"
+    <bean id="address3" class="com.atguigu.spring-1.beansAutowire.Address"
           p:street="WangJiang" parent="address2"></bean>
 
 
-    <bean id="car" class="com.atguigu.spring.beansAutowire.Car"
+    <bean id="car" class="com.atguigu.spring1.beansAutowire.Car"
     p:brand="Audi" p:price="300000"></bean>
 
     <!--要求在配置person是必须要有一个关联的car-->
-    <bean id="person" class="com.atguigu.spring.beansAutowire.Person"
+    <bean id="person" class="com.atguigu.spring1.beansAutowire.Person"
     p:name="Tom" p:address-ref="address2" depends-on="car"></bean>
 
 

@@ -9,7 +9,7 @@
     singleton：默认，容器初始时创建bean，在容器整个生命周期内只创建一次bean实例，单例的
     prototype：原型的,容器初始时不创建bean， 每次请求时都创建一个 新的bean实例
     -->
-    <bean id="car" class="com.atguigu.spring.beansScope.Car"
+    <bean id="car" class="com.atguigu.spring1.beansScope.Car"
     scope="prototype">
         <property name="brand" value="Audi"></property>
         <property name="price" value="300000"></property>
