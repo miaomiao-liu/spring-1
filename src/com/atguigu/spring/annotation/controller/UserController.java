@@ -10,7 +10,7 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class UserController {
 
-    //@Resource @Inject 也可以自动装配bean 
+    //@Resource @Inject 也可以自动装配bean
     @Autowired
     private UserService userService;
 
