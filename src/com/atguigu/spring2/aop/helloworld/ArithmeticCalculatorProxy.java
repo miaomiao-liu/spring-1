@@ -1,4 +1,4 @@
-package com.atguigu.spring2;
+package com.atguigu.spring2.aop.helloworld;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
