@@ -19,9 +19,9 @@
     <bean id="person" class="com.atguigu.spring.beansSpel.Person">
         <property name="name" value="MiaoMiao"></property>
         <property name="car" value="#{car}"></property>
-        <!---->
+        <!--使用spel来应用其他bean的属性-->
         <property name="city" value="#{address.city}"></property>
-
+        <!--在spel中使用运算符-->
         <property name="info" value="#{car.price > 300000 ? '金领' : '白领'}"></property>
     </bean>
 
