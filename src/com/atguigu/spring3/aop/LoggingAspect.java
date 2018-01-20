@@ -17,54 +17,62 @@ import java.util.List;
 @Component
 public class LoggingAspect {
 
+    /**
+     * 定义一个方法，用于声明切入点表达式，一般地，这个方法不用添入其他代码
+     * 使用@Pointcut来声明切入点表达式
+     * 后面的通知直接使用方法名来应用当前的切入点表达式
+     */
+    @Pointcut("execution(public int com.atguigu.spring3.aop.*.*(..))")
+    public void declareJoinPointExpression(){}
 
-//    /**
-//     * 将该方法声明为一个前置通知：在目标方法执行之前执行
-//     * @param joinPoint
-//     */
-//    @Before("execution(public int com.atguigu.spring3.aop.*.*(..))")
-//    public void beforeMethod(JoinPoint joinPoint){
-//        String methodName = joinPoint.getSignature().getName();
-//        List<Object> args = Arrays.asList(joinPoint.getArgs());
-//        System.out.println("The method " + methodName + " begins with " + args);
-//    }
-//
-//    /**
-//     * 后置通知：在目标方法执行后（无论是否发生异常）执行的通知
-//     * 在后置通知中不能访问目标方法执行的结果（需要在返回通知中访问）
-//     * @param joinPoint
-//     */
-//    @After("execution(public int com.atguigu.spring3.aop.*.*(..))")
-//    public void afterMethod(JoinPoint joinPoint){
-//        String methodName = joinPoint.getSignature().getName();
-//        System.out.println("The method " + methodName + " ends");
-//    }
-//
-//    /**
-//     * 在方法正常结束受执行的代码
-//     * 返回通知可以访问到方法的返回值
-//     * @param joinPoint
-//     * @param result
-//     */
-//    @AfterReturning(value = "execution(public int com.atguigu.spring3.aop.*.*(..))",
-//    returning = "result")
-//    public void afterReturning(JoinPoint joinPoint,Object result){
-//        String methodName = joinPoint.getSignature().getName();
-//        System.out.println("The method " + methodName + " ends with " + result);
-//    }
-//
-//    /**
-//     * 在目标方法出现异常时会执行的通知
-//     * 可以访问到异常对象，且可以指定在出现特定异常时执行
-//     * @param joinPoint
-//     * @param e
-//     */
-//    @AfterThrowing(value = "execution(public int com.atguigu.spring3.aop.*.*(..))",
-//    throwing = "e")
-//    public void afterThrowing(JoinPoint joinPoint,Exception e){
-//        String methodName = joinPoint.getSignature().getName();
-//        System.out.println("The method " + methodName + " occurs excetion " + e);
-//    }
+
+    /**
+     * 将该方法声明为一个前置通知：在目标方法执行之前执行
+     * @param joinPoint
+     */
+    @Before("declareJoinPointExpression()")
+    public void beforeMethod(JoinPoint joinPoint){
+        String methodName = joinPoint.getSignature().getName();
+        List<Object> args = Arrays.asList(joinPoint.getArgs());
+        System.out.println("The method " + methodName + " begins with " + args);
+    }
+
+    /**
+     * 后置通知：在目标方法执行后（无论是否发生异常）执行的通知
+     * 在后置通知中不能访问目标方法执行的结果（需要在返回通知中访问）
+     * @param joinPoint
+     */
+    @After("declareJoinPointExpression()")
+    public void afterMethod(JoinPoint joinPoint){
+        String methodName = joinPoint.getSignature().getName();
+        System.out.println("The method " + methodName + " ends");
+    }
+
+    /**
+     * 在方法正常结束受执行的代码
+     * 返回通知可以访问到方法的返回值
+     * @param joinPoint
+     * @param result
+     */
+    @AfterReturning(value = "declareJoinPointExpression()",
+    returning = "result")
+    public void afterReturning(JoinPoint joinPoint,Object result){
+        String methodName = joinPoint.getSignature().getName();
+        System.out.println("The method " + methodName + " ends with " + result);
+    }
+
+    /**
+     * 在目标方法出现异常时会执行的通知
+     * 可以访问到异常对象，且可以指定在出现特定异常时执行
+     * @param joinPoint
+     * @param e
+     */
+    @AfterThrowing(value = "declareJoinPointExpression()",
+    throwing = "e")
+    public void afterThrowing(JoinPoint joinPoint,Exception e){
+        String methodName = joinPoint.getSignature().getName();
+        System.out.println("The method " + methodName + " occurs excetion " + e);
+    }
 
 
     /**
@@ -74,6 +82,8 @@ public class LoggingAspect {
      * @param pjd
      * @return
      */
+    /**
+
     @Around("execution(public int com.atguigu.spring3.aop.*.*(..))")
     public Object aroundMethod(ProceedingJoinPoint pjd){
 
@@ -98,4 +108,5 @@ public class LoggingAspect {
 
         return result;
     }
+     */
 }
