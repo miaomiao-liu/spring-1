@@ -11,7 +11,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Main {
     public static void main(String[] args) {
 
-        ApplicationContext ctx = new ClassPathXmlApplicationContext("resources/beans-generic-di.xml");
+        ApplicationContext ctx = new ClassPathXmlApplicationContext("resources1/beans-generic-di.xml");
 
         UserService userService = (UserService) ctx.getBean("userService");
         userService.add();

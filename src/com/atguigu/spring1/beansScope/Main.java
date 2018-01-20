@@ -8,7 +8,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class Main {
     public static void main(String[] args) {
-        ApplicationContext ctx = new ClassPathXmlApplicationContext("resources/beans-scope.xml");
+        ApplicationContext ctx = new ClassPathXmlApplicationContext("resources1/beans-scope.xml");
 
         Car car = (Car) ctx.getBean("car");
         Car car2 = (Car) ctx.getBean("car");

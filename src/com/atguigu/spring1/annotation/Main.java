@@ -10,7 +10,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Main {
     public static void main(String[] args) {
 
-        ApplicationContext ctx = new ClassPathXmlApplicationContext("resources/beans-annotation.xml");
+        ApplicationContext ctx = new ClassPathXmlApplicationContext("resources1/beans-annotation.xml");
 
 //        TestObject to = (TestObject) ctx.getBean("testObject");
 //        System.out.println(to);

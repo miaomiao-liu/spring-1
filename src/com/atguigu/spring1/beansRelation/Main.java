@@ -11,7 +11,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Main {
     public static void main(String[] args) {
 
-        ApplicationContext ctx = new ClassPathXmlApplicationContext("resources/beans-relation.xml");
+        ApplicationContext ctx = new ClassPathXmlApplicationContext("resources1/beans-relation.xml");
 
 //        Address address = (Address) ctx.getBean("address");
 //        System.out.println(address);

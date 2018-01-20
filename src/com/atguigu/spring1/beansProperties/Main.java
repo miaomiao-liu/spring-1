@@ -12,7 +12,7 @@ import java.sql.SQLException;
 public class Main {
     public static void main(String[] args) throws SQLException {
 
-        ApplicationContext ctx = new ClassPathXmlApplicationContext("resources/beans-properties.xml");
+        ApplicationContext ctx = new ClassPathXmlApplicationContext("resources1/beans-properties.xml");
 
         DataSource dataSource = (DataSource) ctx.getBean("dataSource");
         System.out.println(dataSource.getConnection());

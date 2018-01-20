@@ -16,7 +16,7 @@ public class Main {
         */
 
         //1.创建spring的IOC容器对象
-        ApplicationContext ctx = new ClassPathXmlApplicationContext("resources/applicationContext.xml");
+        ApplicationContext ctx = new ClassPathXmlApplicationContext("resources1/applicationContext.xml");
 
         /*
         //2.从IOC容器中获取bean实例
