@@ -3,6 +3,7 @@ package com.atguigu.spring3.aop;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
@@ -11,6 +12,7 @@ import java.util.List;
 /**
  * Created by miaomiao on 18-1-20.
  */
+@Order(2)
 @Aspect
 @Component
 public class LoggingAspect {
