@@ -120,7 +120,7 @@
     </bean>
 
     <!--通过 p 命名空间对属性进行赋值-->
-    <bean id="person5" class="com.atguigu.spring-1.beansCollections.Person" p:name="Queen"
+    <bean id="person5" class="com.atguigu.spring1.beansCollections.Person" p:name="Queen"
           p:age="33" p:cars-ref="cars"></bean>
 
 
