@@ -2,17 +2,21 @@ package com.atguigu.spring4.jdbc;
 
 
 import org.junit.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
+import org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSource;
+import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
+import org.springframework.jdbc.core.namedparam.SqlParameterSource;
 
 import javax.sql.DataSource;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by miaomiao on 18-1-20.
@@ -23,12 +27,47 @@ public class JDBCTest {
     private JdbcTemplate jdbcTemplate;
     private EmployeeDao employeeDao;
     private DepartmentDao departmentDao;
+    private NamedParameterJdbcTemplate namedParameterJdbcTemplate;
 
     {
         ctx = new ClassPathXmlApplicationContext("resources4/applicationContext.xml");
         jdbcTemplate = (JdbcTemplate) ctx.getBean("jdbcTemplate");
         employeeDao = (EmployeeDao) ctx.getBean("employeeDao");
         departmentDao = ctx.getBean(DepartmentDao.class);
+        namedParameterJdbcTemplate = ctx.getBean(NamedParameterJdbcTemplate.class);
+    }
+
+
+    /**
+     * 使用具名参数
+     */
+    @Test
+    public void testNamedParameterJdbcTemplate2(){
+        String sql = "INSERT INTO employees (last_name,email,dept_id)"
+                +" VALUES(:lastName,:email,:deptId)";
+        Employee employee = new Employee();
+        employee.setLastName("XYZ");
+        employee.setEmail("xyz@sina.com");
+        employee.setDeptId(3);
+
+        SqlParameterSource paramSource = new BeanPropertySqlParameterSource(employee);
+        namedParameterJdbcTemplate.update(sql,paramSource);
+
+    }
+
+    /**
+     * 使用具名参数
+     * 可以为参数取名（参数多时，便于维护），较麻烦
+     */
+    @Test
+    public void testNamedParameterJdbcTemplate(){
+        String sql = "INSERT INTO employees (last_name,email,dept_id) VALUES(:ln,:email,:deptid)";
+        Map<String,Object> paraMap = new HashMap();
+        paraMap.put("ln","FF");
+        paraMap.put("email","ff@atguigu.com");
+        paraMap.put("deptid","2");
+
+        namedParameterJdbcTemplate.update(sql,paraMap);
     }
 
     @Test
