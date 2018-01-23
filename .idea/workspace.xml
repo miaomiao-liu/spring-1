@@ -21,118 +21,92 @@
       <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources4/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="42" column="65" lean-forward="false" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="65" />
+            <state relative-caret-position="236">
+              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpringTransactionTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring4/tx/SpringTransactionTest.java">
+      <file leaf-file-name="applicationContext-xml.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources4/applicationContext-xml.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+            <state relative-caret-position="181">
+              <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringTransactionTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring4/txXml/SpringTransactionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#788#789#0" expanded="true" />
-                <element signature="e#852#853#0" expanded="true" />
-                <element signature="e#902#903#0" expanded="true" />
-                <element signature="e#953#954#0" expanded="true" />
-                <element signature="e#1006#1007#0" expanded="true" />
-                <element signature="e#1061#1062#0" expanded="true" />
-                <element signature="e#1111#1112#0" expanded="true" />
-                <element signature="e#1160#1161#0" expanded="true" />
-                <element signature="e#1213#1214#0" expanded="true" />
-                <element signature="e#1284#1285#0" expanded="true" />
+                <element signature="e#903#904#0" expanded="true" />
+                <element signature="e#967#968#0" expanded="true" />
+                <element signature="e#1017#1018#0" expanded="true" />
+                <element signature="e#1068#1069#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookShopService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring4/tx/BookShopService.java">
+      <file leaf-file-name="BookShopDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring4/txXml/BookShopDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookShopServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring4/tx/BookShopServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="39" column="26" lean-forward="false" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+            <state relative-caret-position="18">
+              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1516704460073" expanded="true" signature="676:713" ph="SELECT price... book" />
+                <marker date="1516704460073" expanded="true" signature="903:946" ph="SELECT stock... book_stock" />
+                <marker date="1516704460073" expanded="true" signature="1131:1185" ph="UPDATE book_... " />
+                <marker date="1516704460073" expanded="true" signature="1366:1412" ph="SELECT balan... account" />
+                <marker date="1516704460073" expanded="true" signature="1610:1669" ph="UPDATE accou... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Cashier.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring4/tx/Cashier.java">
+        <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring4/txXml/service/Cashier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            <state relative-caret-position="0">
+              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookShopService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring4/txXml/service/BookShopService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookShopServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring4/txXml/serviceImpl/BookShopServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="CashierImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring4/tx/CashierImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring4/txXml/serviceImpl/CashierImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            <state relative-caret-position="116">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookShopDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring4/tx/BookShopDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookShopDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring4/tx/BookShopDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1516691191596" expanded="true" signature="487:524" ph="SELECT price... book" />
-                <marker date="1516691191596" expanded="true" signature="714:757" ph="SELECT book_... " />
-                <marker date="1516691191596" expanded="true" signature="942:996" ph="UPDATE book_... " />
-                <marker date="1516691191596" expanded="true" signature="1177:1223" ph="SELECT balan... account" />
-                <marker date="1516691191596" expanded="true" signature="1421:1480" ph="UPDATE accou... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserAccountException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring4/tx/UserAccountException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-              <folding>
-                <element signature="e#229#230#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -175,14 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/atguigu/spring/beansGenericDi/BaseRepository.java" />
-        <option value="$PROJECT_DIR$/src/com/atguigu/spring/beansGenericDi/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/com/atguigu/spring/beansGenericDi/UserService.java" />
-        <option value="$PROJECT_DIR$/src/com/atguigu/spring/beansGenericDi/BaseService.java" />
-        <option value="$PROJECT_DIR$/src/resources/beans-generic-di.xml" />
-        <option value="$PROJECT_DIR$/src/com/atguigu/spring/beansGenericDi/Mian.java" />
-        <option value="$PROJECT_DIR$/src/com/atguigu/spring/beansGenericDi/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/atguigu/spring2/ArithmeticCalculator.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/spring2/ArithmeticCalculatorImpl.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/spring2/Main.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/spring2/ArithmeticCalculatorProxy.java" />
@@ -226,6 +192,14 @@
         <option value="$PROJECT_DIR$/src/com/atguigu/spring4/tx/CashierImpl.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/spring4/tx/SpringTransactionTest.java" />
         <option value="$PROJECT_DIR$/src/com/atguigu/spring4/tx/BookShopServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/spring4/txXml/CashierImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/spring4/txXml/SpringTransactionTest.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/spring4/txXml/BookShopService.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/spring4/txXml/BookShopServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/spring4/txXml/serviceImpl/CashierImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/spring4/txXml/BookShopDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/atguigu/spring4/txXml/service/BookShopService.java" />
+        <option value="$PROJECT_DIR$/src/resources4/applicationContext-xml.xml" />
       </list>
     </option>
   </component>
@@ -328,36 +302,6 @@
               <option name="myItemId" value="spring4" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tx" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="atguigu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -396,12 +340,11 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib" />
-      <recent name="$PROJECT_DIR$/src/com/atguigu/spring3/aopXml" />
-      <recent name="$PROJECT_DIR$/src/com/atguigu/spring3/aop" />
-      <recent name="$PROJECT_DIR$/src/com/atguigu/spring2/aop/impl" />
-      <recent name="$PROJECT_DIR$/src/com/atguigu/spring/beansSpel" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resources3" />
+      <recent name="$PROJECT_DIR$/src/resources" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/resouse" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.atguigu.spring2" />
@@ -410,40 +353,15 @@
       <recent name="com.atguigu.spring.beansScope" />
       <recent name="com.atguigu.spring.beansCollections" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/resources3" />
-      <recent name="$PROJECT_DIR$/src/resources" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/resouse" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resources4" />
+      <recent name="$PROJECT_DIR$/src/com/atguigu/spring4/txXml" />
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/src/com/atguigu/spring3/aopXml" />
+      <recent name="$PROJECT_DIR$/src/com/atguigu/spring3/aop" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpringTransactionTest.testTransactionlPropagation">
-    <configuration default="false" name="SpringTransactionTest.testfindBookPriceByid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.spring4.tx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="spring-1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.atguigu.spring4.tx" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.spring4.tx.SpringTransactionTest" />
-      <option name="METHOD_NAME" value="testfindBookPriceByid" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.SpringTransactionTest.testTransactionlPropagation (1)">
     <configuration default="false" name="SpringTransactionTest.testupdateBookStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -457,32 +375,6 @@
       <option name="PACKAGE_NAME" value="com.atguigu.spring4.tx" />
       <option name="MAIN_CLASS_NAME" value="com.atguigu.spring4.tx.SpringTransactionTest" />
       <option name="METHOD_NAME" value="testupdateBookStock" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="SpringTransactionTest.testupdateUserAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.spring4.tx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="spring-1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.atguigu.spring4.tx" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.spring4.tx.SpringTransactionTest" />
-      <option name="METHOD_NAME" value="testupdateUserAccount" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -534,6 +426,58 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.atguigu.spring4.tx" />
       <option name="MAIN_CLASS_NAME" value="com.atguigu.spring4.tx.SpringTransactionTest" />
+      <option name="METHOD_NAME" value="testTransactionlPropagation" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="SpringTransactionTest.testBookShopService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.spring4.txXml.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="spring-1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.atguigu.spring4.txXml" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.spring4.txXml.SpringTransactionTest" />
+      <option name="METHOD_NAME" value="testBookShopService" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="SpringTransactionTest.testTransactionlPropagation (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.spring4.txXml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="spring-1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.atguigu.spring4.txXml" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.spring4.txXml.SpringTransactionTest" />
       <option name="METHOD_NAME" value="testTransactionlPropagation" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -929,19 +873,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.SpringTransactionTest.testfindBookPriceByid" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SpringTransactionTest.testupdateBookStock" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SpringTransactionTest.testupdateUserAccount" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.SpringTransactionTest.testupdateBookStock" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SpringTransactionTest.testBookShopService" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.SpringTransactionTest.testTransactionlPropagation" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.SpringTransactionTest.testBookShopService" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SpringTransactionTest.testTransactionlPropagation" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SpringTransactionTest.testTransactionlPropagation (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.SpringTransactionTest.testTransactionlPropagation" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SpringTransactionTest.testTransactionlPropagation (1)" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.SpringTransactionTest.testBookShopService" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SpringTransactionTest.testupdateBookStock" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SpringTransactionTest.testupdateUserAccount" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SpringTransactionTest.testfindBookPriceByid" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.SpringTransactionTest.testTransactionlPropagation" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SpringTransactionTest.testBookShopService" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SpringTransactionTest.testupdateBookStock" />
       </list>
     </recent_temporary>
   </component>
@@ -963,34 +907,22 @@
       <workItem from="1516329670228" duration="22108000" />
       <workItem from="1516421747106" duration="19683000" />
       <workItem from="1516500735852" duration="13134000" />
-      <workItem from="1516688261285" duration="6588000" />
+      <workItem from="1516688261285" duration="9865000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpringTransactionTest_testBookShopService - 2018.01.23 at 15h 21m 33s.xml">
+    <history-entry file="SpringTransactionTest_testBookShopService - 2018.01.23 at 18h 50m 06s.xml">
       <configuration name="SpringTransactionTest.testBookShopService" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringTransactionTest_testBookShopService - 2018.01.23 at 15h 21m 56s.xml">
-      <configuration name="SpringTransactionTest.testBookShopService" configurationId="JUnit" />
+    <history-entry file="SpringTransactionTest_testBookShopService_(1) - 2018.01.23 at 18h 33m 57s.xml">
+      <configuration name="SpringTransactionTest.testBookShopService (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringTransactionTest_testBookShopService - 2018.01.23 at 15h 23m 44s.xml">
-      <configuration name="SpringTransactionTest.testBookShopService" configurationId="JUnit" />
+    <history-entry file="SpringTransactionTest_testBookShopService_(1) - 2018.01.23 at 18h 42m 57s.xml">
+      <configuration name="SpringTransactionTest.testBookShopService (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringTransactionTest_testTransactionlPropagation - 2018.01.23 at 15h 32m 32s.xml">
-      <configuration name="SpringTransactionTest.testTransactionlPropagation" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringTransactionTest_testTransactionlPropagation - 2018.01.23 at 15h 32m 57s.xml">
-      <configuration name="SpringTransactionTest.testTransactionlPropagation" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringTransactionTest_testTransactionlPropagation - 2018.01.23 at 15h 39m 47s.xml">
-      <configuration name="SpringTransactionTest.testTransactionlPropagation" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringTransactionTest_testTransactionlPropagation - 2018.01.23 at 15h 49m 36s.xml">
-      <configuration name="SpringTransactionTest.testTransactionlPropagation" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SpringTransactionTest_testTransactionlPropagation - 2018.01.23 at 17h 04m 53s.xml">
-      <configuration name="SpringTransactionTest.testTransactionlPropagation" configurationId="JUnit" />
+    <history-entry file="SpringTransactionTest_testBookShopService_(1) - 2018.01.23 at 18h 43m 27s.xml">
+      <configuration name="SpringTransactionTest.testBookShopService (1)" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SpringTransactionTest_testTransactionlPropagation - 2018.01.23 at 17h 05m 39s.xml">
       <configuration name="SpringTransactionTest.testTransactionlPropagation" configurationId="JUnit" />
@@ -998,13 +930,25 @@
     <history-entry file="SpringTransactionTest_testTransactionlPropagation - 2018.01.23 at 17h 06m 07s.xml">
       <configuration name="SpringTransactionTest.testTransactionlPropagation" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SpringTransactionTest_testTransactionlPropagation_(1) - 2018.01.23 at 18h 50m 40s.xml">
+      <configuration name="SpringTransactionTest.testTransactionlPropagation (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringTransactionTest_testTransactionlPropagation_(1) - 2018.01.23 at 18h 51m 10s.xml">
+      <configuration name="SpringTransactionTest.testTransactionlPropagation (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringTransactionTest_testTransactionlPropagation_(1) - 2018.01.23 at 18h 53m 14s.xml">
+      <configuration name="SpringTransactionTest.testTransactionlPropagation (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringTransactionTest_testTransactionlPropagation_(1) - 2018.01.23 at 18h 56m 39s.xml">
+      <configuration name="SpringTransactionTest.testTransactionlPropagation (1)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104284000" />
+    <option name="totallyTimeSpent" value="107561000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1016,13 +960,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29695025" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34991974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28196982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24861" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1055,105 +999,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring2/aop/impl/ArithmeticCalculatorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring2/aop/impl/ArithmeticCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources2/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources2/note">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring2/aop/helloworld/ArithmeticCalculatorProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="45" column="36" lean-forward="false" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring2/aop/helloworld/ArithmeticCalculatorLoggingImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring3/aop/ArithmeticCalculatorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources3/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring2/aop/impl/LoggingAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="29" column="38" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="29" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring2/aop/impl/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring3/aop/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring3/aop/ValidationAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring3/aop/ArithmeticCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring3/aopXml/ArithmeticCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1182,16 +1027,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring3/aop/LoggingAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-594">
-          <caret line="24" column="68" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring3/aopXml/LoggingAspect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -1210,14 +1045,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources3/applicationContext-xml.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1436,14 +1263,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources4/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="42" column="65" lean-forward="false" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring4/tx/BookShopService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1482,20 +1301,162 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring4/tx/CashierImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        <state relative-caret-position="199">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources3/applicationContext-xml.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources3/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring3/aop/ArithmeticCalculatorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring3/aop/ArithmeticCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring3/aop/LoggingAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring4/txXml/BookShopDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring4/txXml/BookStockException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring4/txXml/UserAccountException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources4/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring4/txXml/serviceImpl/BookShopServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring4/txXml/serviceImpl/CashierImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring4/txXml/BookShopDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <marker date="1516704460073" expanded="true" signature="676:713" ph="SELECT price... book" />
+            <marker date="1516704460073" expanded="true" signature="903:946" ph="SELECT stock... book_stock" />
+            <marker date="1516704460073" expanded="true" signature="1131:1185" ph="UPDATE book_... " />
+            <marker date="1516704460073" expanded="true" signature="1366:1412" ph="SELECT balan... account" />
+            <marker date="1516704460073" expanded="true" signature="1610:1669" ph="UPDATE accou... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring4/txXml/service/Cashier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring4/txXml/service/BookShopService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring4/tx/BookShopServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="39" column="26" lean-forward="false" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+        <state relative-caret-position="414">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources4/applicationContext-xml.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/atguigu/spring4/txXml/SpringTransactionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="e#1068#1069#0" expanded="true" />
           </folding>
         </state>
       </provider>
