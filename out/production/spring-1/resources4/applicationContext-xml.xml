@@ -50,7 +50,7 @@
     <!--配置事物属性-->
     <tx:advice id="txAdvice" transaction-manager="transactionManager">
         <tx:attributes>
-            <!--根据方法名指定事务   的属性-->
+            <!--根据方法名指定事务的属性-->
             <tx:method name="purchase" propagation="REQUIRES_NEW"/>
             <tx:method name="get*" read-only="true"></tx:method>
             <tx:method name="find*" read-only="true"></tx:method>
